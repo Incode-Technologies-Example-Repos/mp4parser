@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mp4parser</groupId>
     <artifactId>androidtest</artifactId>
-    <version>1.0-RC-16-SNAPSHOT</version>
+    <version>1.9.41-b03</version>
     <packaging>apk</packaging>
     <name>androidtest</name>
 

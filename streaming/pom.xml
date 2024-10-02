@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mp4parser</groupId>
     <artifactId>streaming</artifactId>
-    <version>1.9.41-b02</version>
+    <version>1.9.41-b03</version>
     <dependencies>
         <dependency>
             <groupId>org.mp4parser</groupId>
             <artifactId>isoparser</artifactId>
-            <version>1.9.41-b02</version>
+            <version>1.9.41-b03</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.mp4parser</groupId>
             <artifactId>muxer</artifactId>
-            <version>1.9.41-b02</version>
+            <version>1.9.41-b03</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -83,9 +83,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                    <release>8</release>
+                    <source>9</source>
+                    <target>9</target>
+                    <release>9</release>
                 </configuration>
             </plugin>
             <plugin>
@@ -93,7 +93,7 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.1.1</version>
                 <configuration>
-                    <source>8</source>
+                    <source>9</source>
                 </configuration>
             </plugin>
             <plugin>
@@ -130,6 +130,6 @@
     </developers>
     <scm>
         <url>https://github.com/sannies/mp4parser</url>
-        <tag>mp4parser-project-1.9.41-b02</tag>
+        <tag>mp4parser-project-1.9.41-b03</tag>
     </scm>
 </project>
